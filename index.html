@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <title>Resume</title>
+</head>
+
+<body>
+
+    <div class="page">
+        <!-- Header -->
+        <header class="header">
+            <img class="header__img" src="./assets/0.jpg" alt="0" style="object-fit: cover;">
+
+            <div class="header__info">
+                <h2 class="header__title">Semyon Zhukov</h2>
+
+                <div class="header__text">
+                    <p>
+                        Hi, I'm 17 years old man, who wants to make myself better and better at programming
+                        (frontend), and I hope I will keep learning.
+                        I started ~1 year ago, it was in Jule/August 2021, and I learned a lot having passed this
+                        way.
+                    </p>
+                </div>
+
+                <div class="requisites">
+                    <a href="tel:8-951-532-32-20" class="requisite">
+                        <span>Number:</span>
+                        8-951-532-32-20
+                    </a>
+                    <a href="mailto:semarc-zhu@yandex.ru" class="requisite">
+                        <span>Mail:</span>
+                        semarc-zhu@yandex.ru
+                    </a>
+                </div>
+
+                <div class="socials">
+                    <a href="https://www.codewars.com/users/Semaff" class="social">
+                        <img width="25" height="25" src="assets/codewars.svg" alt="Codewars" />
+                    </a>
+                    <a href="https://github.com/Semaff" class="social">
+                        <img width="30" height="30" src="assets/github.svg" alt="Codewars" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/semyon-zhukov-1911ba249/" class="social">
+                        <img width="30" height="30" src="assets/linkedin.svg" alt="Codewars" />
+                    </a>
+                </div>
+            </div> <!-- /.header__info -->
+        </header> <!-- /.header -->
+
+        <!-- Stack -->
+        <section class="section">
+            <h2 class="section__title">Technologies Stack</h2>
+
+            <div class="section__desc">
+                <p>
+                    Through my studying I've been working with a lot of technologies, and so I've learned:
+                </p>
+            </div>
+
+            <ul class="stack">
+                <li class="stack__item">HTML5, CSS, JS (ES6+)</li>
+                <li class="stack__item">Preprocessors LESS, SASS in SCSS</li>
+                <li class="stack__item">Adaptive/Responsive layouting</li>
+                <li class="stack__item">Gulp Task Manager</li>
+                <li class="stack__item">React/Redux</li>
+                <li class="stack__item">MobX</li>
+                <li class="stack__item">Typescript</li>
+                <li class="stack__item">Version Control - Git</li>
+                <li class="stack__item">Node.js / Express / Sequelize (PostgreSQL)</li>
+                <li class="stack__item">HTTP and WebSocket requests</li>
+                <li class="stack__item">Working with JSON, NPM, RestAPI</li>
+            </ul> <!-- /.stack -->
+        </section> <!-- /.section -->
+
+        <!-- Projects -->
+        <section class="section">
+            <h2 class="section__title">My Projects</h2>
+
+            <div class="section__desc">
+                <p>
+                    Here are my projects with some of technologies I've learned:
+                </p>
+            </div>
+
+            <div class="projects">
+                <div class="project">
+                    <h3 class="project__title">
+                        Food & Wine
+                        <span>(HTML, SCSS, JS, Gulp)</span>
+                    </h3>
+
+                    <div class="project__desc">
+                        <p>
+                            <!-- After learning basics of HTML, CSS, JS, and making some of layouts I started to learn Gulp.
+                            I made couple of projects, but the biggest one (30 pages) is here, in my Portfolio. -->
+                            The main goal in this project was to make Responsive/Adaptive layout with some JS.
+                            <!-- <span></span> -->
+                        </p>
+                    </div>
+
+                    <!-- <img class="project__img" src="assets/1.png" alt="1"> -->
+
+                    <div class="project__footer">
+                        <a href="https://github.com/Semaff/food-wine">
+                            Github (code): https://github.com/Semaff/food-wine
+                        </a>
+                        <a href="https://semaff.github.io/food-wine/">
+                            Try it out: https://semaff.github.io/food-wine/
+                        </a>
+                    </div>
+                </div> <!-- /.project 1 -->
+
+                <div class="project">
+                    <h3 class="project__title">
+                        React Canvas
+                        <span>(React, SCSS, MobX, Node.js (WebSockets + HTTP))</span>
+                    </h3>
+
+                    <div class="project__desc">
+                        <p>
+                            <!-- After learning basics of React, I wanted to learn something new and found a good video about
+                            Canvas in React, so I decided to make Canvas that you can share with your friend by link,
+                            and draw something together! -->
+                            Use Canvas API with friends!
+                            <span></span>
+                        </p>
+                    </div>
+
+                    <!-- <img class="project__img" src="assets/2.png" alt="2"> -->
+
+                    <div class="project__footer">
+                        <a href="https://github.com/Semaff/react-canvas">
+                            Github (code): https://github.com/Semaff/react-canvas
+                        </a>
+                        <a href="https://semaff-canvas.herokuapp.com">
+                            Try it out: https://semaff-canvas.herokuapp.com
+                        </a>
+                    </div>
+                </div> <!-- /.project 2 -->
+
+                <div class="project">
+                    <h3 class="project__title">
+                        Online Store
+                        <span>(React, RTK, SCSS, Node.js + Express (HTTP), Sequelize (PostgreSQL))</span>
+                    </h3>
+
+                    <div class="project__desc">
+                        <p>
+                            To hone my skills, I've decided to make BIG fullstack project.
+                            <!-- First of all
+                            I wanted to see how far and how fast I will made this project (+-3 Weeks).
+                            Secondly I wanted to learn a little bit of PostgreSQL more with Sequelize ORM.
+                            And finally I wanted to explore the abilities of Redux ToolKit,
+                            to avoid many boiler plate code. -->
+                            <span>Technologies: React, RTK, SCSS, Node.js + Express (HTTP), Sequelize
+                                (PostgreSQL)</span>
+                        </p>
+                    </div>
+
+                    <!-- <img class="project__img" src="assets/3.png" alt="3"> -->
+
+                    <div class="project__footer">
+                        <a href="https://github.com/Semaff/react-online-store">
+                            Github (code): https://github.com/Semaff/react-online-store
+                        </a>
+                        <a href="https://semaff-online-store.herokuapp.com/">
+                            Try it out: https://semaff-online-store.herokuapp.com/
+                        </a>
+                    </div>
+                </div> <!-- /.project 3 -->
+
+                <div class="project">
+                    <h3 class="project__title">
+                        React Typescript Checkers
+                        <span>(React, CSS, Typescript)</span>
+                    </h3>
+                    <div class="project__desc">
+                        <p>
+                            <!-- After learning Typescript, I wanted to test it out.
+                            So I've decided to make -->
+                            Checkers made with OOP Models in Typescript
+                            <span></span>
+                        </p>
+                    </div>
+
+                    <!-- <img class="project__img" src="assets/4.png" alt="4"> -->
+
+                    <div class="project__footer">
+                        <a href="https://github.com/Semaff/checkers">
+                            Github (code): https://github.com/Semaff/checkers
+                        </a>
+                        <a href="https://semaff.github.io/checkers/">
+                            Try it out: https://semaff.github.io/checkers/
+                        </a>
+                    </div>
+                </div> <!-- /.project 4 -->
+            </div> <!-- /.projects -->
+        </section> <!-- /.section -->
+    </div> <!-- /.page -->
+
+    <!-- JavaScript -->
+    <script src="app.js"></script>
+</body>
+
+</html>

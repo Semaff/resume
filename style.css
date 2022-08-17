@@ -1,0 +1,230 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0.6rem 1rem;
+    background: grey;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.page {
+    width: 100%;
+    max-width: 100rem;
+    padding: 0 1.5rem;
+    margin: 0 auto;
+
+    background-color: rgb(202, 202, 202);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+/*
+  Section
+  ====================
+*/
+.section {
+    padding: 1rem 0;
+}
+
+.section__title {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+.section__desc {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 70rem;
+}
+
+.section__desc p {
+    font-size: 1.4rem;
+}
+
+/*
+  Header
+  ====================
+*/
+.header {
+    padding: 1rem;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    border-bottom: 1px solid #8e8e8e;
+}
+
+.header__img {
+    width: 20rem;
+    height: 20rem;
+}
+
+.header__info {
+    padding: 1rem 0;
+}
+
+.header__title {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.header__text {
+    width: 100%;
+    max-width: 50rem;
+}
+
+.header__text p {
+    font-size: 1.4rem;
+}
+
+/*
+  Requisites
+  ====================
+*/
+.requisites {
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.requisite {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+    font-family: inherit;
+}
+
+.requisite span {
+    font-weight: 500;
+}
+
+.requisite:hover {
+    text-decoration: underline;
+}
+
+/*
+  Socials
+  ====================
+*/
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.social {
+    width: 4rem;
+    height: 4rem;
+    background-color: grey;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    font-family: inherit;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s linear;
+}
+
+.social:hover {
+    transform: scale(1.2);
+    background-color: rgb(97, 97, 97);
+}
+
+/*
+  Stack
+  ====================
+*/
+.stack {
+    padding-left: 2.5rem;
+}
+
+.stack__item {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.stack__item + .stack__item {
+    margin-top: 0.5rem;
+}
+
+/*
+  Stack
+  ====================
+*/
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.project {
+    padding: 0.5rem;
+    border: 2px solid #8e8e8e;
+    width: 100%;
+}
+
+.project__title {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: .5rem;
+}
+
+.project__desc {
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+
+.project__desc span {
+    font-size: 1.4rem;
+    font-weight: 500;
+    display: block;
+}
+
+.project__img {
+    display: block;
+    object-fit: cover;
+    text-align: center;
+    margin: 1rem auto;
+}
+
+.project__footer a {
+    display: block;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #000;
+}
+
+.project__footer a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 550px) {
+    .page {
+        padding: 2rem 1rem;
+    }
+
+    .header {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
